@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Check stuff"){
             steps{
-                sh "cat sample.txt"
+                sh "cat test-2.txt"
             }
             post{
                 always{
